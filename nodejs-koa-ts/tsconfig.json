@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2017",
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "paths": {
+      "~app/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
